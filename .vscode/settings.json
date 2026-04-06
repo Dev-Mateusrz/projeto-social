@@ -237,4 +237,5 @@
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "livePreview.defaultPreviewPath": "/Curso - Módulo 2/Curso - Exercícios/1 - Gradientes ou Degradê/1.1 - Site com Degradê/index.html",
+  "liveServer.settings.port": 5501,
 }

@@ -29,18 +29,23 @@ section#telefone {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  width: 65vw;
+  min-width: 180px;
+  max-width: 305px;
 
-  height: 700px;
-  width: 305px;
-  background: url('../imagens/fundo-celular.png');
+  aspect-ratio: 305 / 700;
+  background: url('../imagens/fundo-celular.png') no-repeat center center;
+  background-size: 100% 100%;
 }
 
 iframe#tela {
-  position: relative;
-  width: 271px;
-  height: 490px;
-  top: 20%;
-  left: 5.737%;
+  position: absolute;
+
+  width: 90%;
+  height: 71%;
+
+  top: 19%;
+  left: 5%;
   border-radius: 5px;
 }
 
@@ -50,7 +55,10 @@ section#redes-sociais {
 }
 
 section#redes-sociais img {
-  width: 50px;
+  width: 10vw;
+  min-width: 50px;
+  max-width: 80px;
+
   margin: 10px;
   border-radius: 50%;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.377);
